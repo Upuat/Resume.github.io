@@ -1,22 +1,22 @@
 body {
-    font-family: sans-serif; /* Выберите подходящий шрифт */
+    font-family: times new roman;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4; /* Светлый фон */
-    color: #333; /* Темный текст */
-    display: flex; /* Используем flexbox для центрирования основного контента */
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 header {
-    background-color: #333; /* Темный фон для шапки */
-    color: #fff; /* Белый текст в шапке */
+    background-color: #333;
+    color: #fff;
     padding: 2rem 1rem;
     text-align: center;
     width: 100%;
-    box-sizing: border-box; /* Учитываем padding в ширине */
+    box-sizing: border-box;
 }
 
 header h1 {
@@ -41,42 +41,40 @@ header p {
 }
 
 main {
-    width: 90%; /* Ширина основного контента */
-    max-width: 960px; /* Максимальная ширина для больших экранов */
-    margin: 1rem auto; /* Отступы сверху/снизу и авто по бокам для центрирования */
+    width: 90%;
+    max-width: 960px;
+    margin: 1rem auto;
     padding: 1rem;
-    background-color: #fff; /* Белый фон для основного контента */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Легкая тень */
-    border-radius: 8px; /* Скругленные углы */
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
 
 section {
     margin-bottom: 2rem;
     padding: 1rem 0;
-    border-bottom: 1px solid #eee; /* Разделитель между секциями */
+    border-bottom: 1px solid #eee;
 }
 
 section:last-child {
-    border-bottom: none; /* Убрать границу у последней секции */
+    border-bottom: none;
 }
 
 h2 {
-    color: #555; /* Цвет заголовков секций */
-    border-bottom: 2px solid #555; /* Подчеркивание заголовков */
+    color: #555;
+    border-bottom: 2px solid #555;
     padding-bottom: 0.5rem;
     margin-bottom: 1rem;
 }
 
-/* Стили для секции Обо мне */
 .about-me p {
     text-align: justify;
 }
 
-/* Стили для секции Опыт работы */
 .job {
     margin-bottom: 1.5rem;
     padding-bottom: 1rem;
-    border-bottom: 1px dashed #eee; /* Пунктирная граница между работами */
+    border-bottom: 1px dashed #eee;
 }
 
 .job:last-child {
@@ -98,14 +96,13 @@ h2 {
 .job ul {
     margin: 0.5rem 0 0 1.5rem;
     padding: 0;
-    list-style: disc; /* Маркеры списка */
+    list-style: disc;
 }
 
 .job ul li {
     margin-bottom: 0.5rem;
 }
 
-/* Стили для секции Образование */
 .degree {
     margin-bottom: 1.5rem;
     padding-bottom: 1rem;
@@ -128,7 +125,6 @@ h2 {
     font-size: 0.9rem;
 }
 
-/* Стили для секции Навыки */
 .skills-category {
     margin-bottom: 1rem;
 }
@@ -142,17 +138,16 @@ h2 {
 .skills-category ul {
     margin: 0 0 0 1.5rem;
     padding: 0;
-    list-style: square; /* Маркеры списка */
-    display: flex; /* Используем flexbox для отображения навыков в строку */
-    flex-wrap: wrap; /* Перенос на следующую строку */
+    list-style: square;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .skills-category ul li {
-    margin-right: 1.5rem; /* Расстояние между навыками */
+    margin-right: 1.5rem;
     margin-bottom: 0.5rem;
 }
 
-/* Стили для секции Проекты */
 .project {
     margin-bottom: 1.5rem;
     padding-bottom: 1rem;
@@ -169,7 +164,7 @@ h2 {
 }
 
 .project a {
-    color: #007bff; /* Цвет ссылок */
+    color: #007bff;
     text-decoration: none;
 }
 
@@ -177,7 +172,6 @@ h2 {
     text-decoration: underline;
 }
 
-/* Стили для футера */
 footer {
     text-align: center;
     padding: 1rem;
